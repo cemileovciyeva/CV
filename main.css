@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+    
+body{
+    background-color: rgb(238, 219, 196);
+}
+
+.common{
+    width: 900px;
+    height: 975px;
+    background: #fff;
+    display: flex;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.left{
+ background: rgb(58,58,95);
+ color: #fff;
+ padding: 40px;
+}
+
+.left .img {
+    text-align: center; 
+    
+}
+
+.left .img .cvimg{
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}  
+
+.left .phone, .email, .address, .name{
+    margin-top: 18px;
+}
+
+.left .education,.language{
+    margin-top: 40px;
+}
+
+.lang, .skills2{
+    display: flex;
+    align-items: center;
+}
+
+.lang .dots, .skills2 .dots{
+    display: flex;
+    margin: 15px 20px;
+}
+
+.lang .dots .dot1{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.lang .dots .dot{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(40, 36, 41);
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.right{
+background: #fff;
+padding: 40px;
+}
+
+.right .name2 h1{
+    font-size: 35px;
+}
+
+.right .name2 span{
+    position: relative;
+    top: -20px;
+}
+
+.right .profile{
+    margin-top: 45px;
+}
+
+.right .experience{
+    margin-top: 45px;
+    padding-top: 10px;
+}
+.right .skills{
+    margin-top: 65px;
+}
+
+ .skills1{
+    display: flex;
+}
+
+.skills2{
+    margin-right: 50px;
+}
+
+.skills2 .dots .dot{
+     width: 10px;
+    height: 10px;
+    background-color:#767689;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.skills2 .dots .dot1{
+    width: 10px;
+    height: 10px;
+    background-color:black;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+}
